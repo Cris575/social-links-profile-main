@@ -44,12 +44,14 @@ main a {
     padding: 10px;
     background: var(--grey);
     text-decoration: none;
+    font-size: 0.9em;
 }
 
 main a:hover {
     background: var(--green);
     cursor: pointer;
     color: black;
+    
 }
 
 img {
@@ -60,7 +62,7 @@ img {
 
 p.name {
     margin: 15px 0 10px 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 p.location {
