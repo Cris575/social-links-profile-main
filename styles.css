@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark: hsl(0, 0%, 12%); 
+    --off-black: hsl(0, 0%, 8%);
+    --green: rgb(196, 248, 42);
+    --text-color: rgb(205, 243, 99);
+}
+
+* {
+    color: var(--white);
+}
+
+body {
+    background: var(--off-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+section.b-radius,
+section.social>a {
+    border-radius: 5px;
+}
+
+main {
+    text-align: center;
+    background: var(--dark);
+    padding: 20px;
+    width: 300px;
+    min-width: 300px;
+    border-radius: 10px;
+}
+
+main a {
+    display: block;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: var(--grey);
+    text-decoration: none;
+}
+
+main a:hover {
+    background: var(--green);
+    cursor: pointer;
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+    width: 25%;
+    margin-top: 10px;
+}
+
+p.name {
+    margin: 15px 0 10px 0;
+    font-size: 1.2em;
+}
+
+p.location {
+    color: var(--text-color);
+    margin: 5px 0 25px 0;
+
+}
+
+section a:first-child {
+    margin-top: 25px;
+}
+
+div.profile-information {
+    font-size: 0.8em;
+} 
