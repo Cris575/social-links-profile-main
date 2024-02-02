@@ -23,8 +23,8 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-section.b-radius,
-section.social>a {
+article.b-radius,
+article.social>a {
     border-radius: 5px;
 }
 
@@ -71,7 +71,7 @@ p.location {
 
 }
 
-section a:first-child {
+article a:first-child {
     margin-top: 25px;
 }
 
